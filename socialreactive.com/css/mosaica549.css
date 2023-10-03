@@ -1,0 +1,100 @@
+html { 
+    background: url("../images/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+body{height:auto; margin:0px;}
+a{color:#fff}
+a:hover{color:#fff; text-decoration: underline;}
+/* #wrapper{background: url("/images/background.jpg"); height:auto; margin:0px; background-size:cover; height: 100%;} */
+#wrapper{height: 100%;}
+#header{display: inline-block; margin:25px 0px 20px 0px; width: 100%;}
+#headerLogo{width: 450px; float: left; margin-left: 60px;}
+
+#title1,#title2{text-align: center; color: #fff; font-weight: bold; font-family: 'futura';}
+#title1{font-size: 45px; margin-bottom: 20px; margin-top: 0px;}
+#title2{font-size: 20px; margin-bottom:0px; margin-top:0px;}
+
+#section2{width: 100%;display: block;margin: 0 auto; margin-top: 30px;}
+#section2-carousel{width: 100%;display: block;margin: 0 auto;}
+#section2-tag{width: 100%;display: block;margin: 0 auto;}
+
+#section3{margin-top: 120px; margin-bottom: 50px; width: 100%; text-align: center;}
+.table {display: table; margin: 0 auto;} /* Allow the centering to work */
+ul#horizontal-list {list-style: none; padding-left: 70px;}
+ul#horizontal-list li {display: inline; color: #fff !important; font-size: 35px; padding-right: 50px; font-family: 'futura';}
+
+@media(max-width:1200px){
+    #headerLogo {
+        float: none;
+        margin-left: 0px;
+        display: block;
+        margin: 0 auto;
+    }
+    #title1{
+        font-size: 35px;
+    }
+    #title2{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:650px){
+    #section2{
+        width: auto;
+    }
+    #section2-carousel{
+        width: auto;
+    }
+    #section2-tag{
+        width: auto;
+    }
+    ul#horizontal-list li {
+        font-size: 5vw;
+    }
+    #header{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+    #headerLogo{
+        width: auto;
+    }
+    #title1{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:470px){
+    ul#horizontal-list{
+        padding: 0px !important;
+    }
+    ul#horizontal-list li {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #section3{
+        margin-bottom: 0px;
+    }
+    #wrapper{
+        height: 100vh;
+    }
+    #section3 {
+    margin-top: 70px;
+    }
+}
+
+@media(max-width:320px){
+    ul#horizontal-list li {
+        font-size: 4.5vw;
+    }
+}
+
+@media(min-height:1160px){
+    #wrapper{
+        height: 100vh;
+    }
+}
+

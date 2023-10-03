@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'futura';
+    src: url('https://socialreactive.com/fonts/FuturaStdMedium.eot');
+    src: url('https://socialreactive.com/fonts/FuturaStdMedium.eot') format('embedded-opentype'),
+         url('https://socialreactive.com/fonts/FuturaStdMedium.woff2') format('woff2'),
+         url('https://socialreactive.com/fonts/FuturaStdMedium.woff') format('woff'),
+         url('https://socialreactive.com/fonts/FuturaStdMedium.ttf') format('truetype'),
+         url('https://socialreactive.com/fonts/FuturaStdMedium.svg#FuturaStdMedium') format('svg');
+}
